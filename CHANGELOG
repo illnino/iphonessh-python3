@@ -1,0 +1,4 @@
+- Ported code to python3
+ - print statements to print functions, bytes vs. str differences, still have not replaced % with format() 
+- Replaced deprecated optparse with argparse to ensure forward compatibilty
+- Added new command-line argument, -i, which allows specification of the host computer IP address to listen on (default localhost)
